@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Abdelfattah Ahmed | Senior Android Developer Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Ahmed Abdelfattah Ahmed, a Senior Android Developer with 5+ years of experience building smooth, scalable apps in Kotlin & Java. Clean Architecture, Jetpack Compose, and MVVM expert.">
+    <meta name="keywords" content="Android Developer, Senior Android Developer, Kotlin, Java, Jetpack Compose, Clean Architecture, MVVM, Saaei, Shopify SDK, Cairo Android Developer">
+    <meta name="author" content="Ahmed Abdelfattah Ahmed">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ahmed Abdelfattah Ahmed | Senior Android Developer">
+    <meta property="og:description" content="5+ years of experience building premium, scalable, and user-friendly mobile apps. Check out my interactive showcase and projects.">
+    <meta property="og:image" content="assets/profile.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Ahmed Abdelfattah Ahmed | Senior Android Developer">
+    <meta property="twitter:description" content="5+ years of experience building premium, scalable, and user-friendly mobile apps. Check out my interactive showcase and projects.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body class="dark-theme">
+    
+    <!-- Background Glow Blobs -->
+    <div class="glow-blobs-container">
+        <div class="glow-blob blob-1"></div>
+        <div class="glow-blob blob-2"></div>
+        <div class="glow-blob blob-3"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="nav-container">
+            <a href="#" class="logo" id="header-logo">
+                <div class="logo-badge">
+                    <svg viewBox="0 0 24 24" class="logo-android-svg">
+                        <path d="M19 14.5c0-3.3-2.3-6.1-5.4-6.8l1.7-3.1c.1-.2.1-.5-.1-.7-.2-.2-.5-.2-.7 0L12.5 7.1c-.8-.2-1.7-.2-2.5 0L8.2 3.9c-.2-.2-.5-.1-.7 0-.2.2-.2.5-.1.7l1.7 3.1C6 8.4 3.7 11.2 3.7 14.5H19z" fill="currentColor"/>
+                        <circle cx="8.5" cy="11.5" r="1.2" fill="#FFFFFF" />
+                        <circle cx="15.5" cy="11.5" r="1.2" fill="#FFFFFF" />
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">Ahmed <span class="logo-name-light">Abdelfattah Ahmed</span></span>
+                    <span class="logo-subtitle">Software Engineer - Mobile (Android / Flutter)</span>
+                </div>
+            </a>
+            
+            <nav class="desktop-nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#showcase" class="nav-link">Showcase</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#contact" class="nav-btn">Let's Talk</a>
+            </nav>
+            
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" id="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+        <nav class="mobile-nav-links">
+            <a href="#about" class="drawer-link">About</a>
+            <a href="#showcase" class="drawer-link">Showcase</a>
+            <a href="#skills" class="drawer-link">Skills</a>
+            <a href="#certificates" class="drawer-link">Certificates</a>
+            <a href="#contact" class="drawer-btn">Let's Talk</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="about">
+        <div class="section-container hero-grid">
+            <div class="hero-content">
+                <div class="badge-container">
+                    <span class="status-badge">
+                        <span class="status-dot animate-pulse"></span>
+                        Available for new opportunities
+                    </span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Engineering Secure, Scalable <span class="gradient-text">Mobile Experiences</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Hi, I'm <strong class="name-highlight">Ahmed Abdelfattah</strong> — a Senior Mobile Engineer with over 5 years of experience leading the delivery of high-impact products. I am passionate about creating user-first products and digital experiences that people love, especially in the <strong style="color: var(--text-primary);">E-Commerce</strong>, <strong style="color: var(--text-primary);">PropTech</strong>, <strong style="color: var(--text-primary);">FinTech</strong>, <strong style="color: var(--text-primary);">Logistics</strong>, and <strong style="color: var(--text-primary);">HR Tech</strong> sectors. What I bring to a team is a strong sense of ownership and a track record of bridging the gap between product vision and technical execution. I focus on aligning product roadmaps with business goals, mentoring engineers to foster collaborative environments, and maintaining high delivery standards to drive user satisfaction and business growth.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#showcase" class="btn btn-primary">
+                        <i class="fa-solid fa-terminal"></i> View Showcase
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fa-solid fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <!-- Profile Picture Box -->
+            <div class="hero-image-wrapper">
+                <div class="profile-card">
+                    <div class="profile-glow"></div>
+                    <div class="profile-border">
+                        <img src="assets/profile.jpg" alt="Ahmed Abdelfattah Ahmed - Senior Android Developer" class="profile-img">
+                    </div>
+                    <div class="floating-tech tech-kotlin" data-tooltip="Kotlin">
+                        <svg viewBox="0 0 24 24" class="tech-icon-svg">
+                            <path d="M24 24H0V0h24L12 12z" fill="url(#kotlin-grad)"/>
+                            <defs>
+                                <linearGradient id="kotlin-grad" x1="24" y1="0" x2="0" y2="24" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0%" stop-color="#E24429"/>
+                                    <stop offset="30%" stop-color="#E24429"/>
+                                    <stop offset="50%" stop-color="#AD4296"/>
+                                    <stop offset="70%" stop-color="#7F52FF"/>
+                                    <stop offset="100%" stop-color="#7F52FF"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="floating-tech tech-slack" data-tooltip="Slack">
+                        <i class="fa-brands fa-slack"></i>
+                    </div>
+                    <div class="floating-tech tech-firebase" data-tooltip="Firebase">
+                        <svg viewBox="0 0 24 24" class="tech-icon-svg">
+                            <path d="M3.89 15.572L6.009.914a.557.557 0 0 1 1.026-.142l2.3 4.316 2.508-4.72a.56.56 0 0 1 1.009.028l7.26 15.176-3.837 3.837a1.68 1.68 0 0 1-2.316.059L3.89 15.572z" fill="#FFC24C"/>
+                            <path d="M12.915 5.568l-2.474-4.636a.56.56 0 0 0-1.006-.022L2.176 16.088l10.74-10.52z" fill="#FFA611"/>
+                            <path d="M20.2 19.57L12.923 5.011 3.89 15.572l6.81 6.81a1.68 1.68 0 0 0 2.378 0l7.122-7.122a.557.557 0 0 0-.295-.918" fill="#F44336"/>
+                        </svg>
+                    </div>
+                    <div class="floating-tech tech-android" data-tooltip="Android">
+                        <i class="fa-brands fa-android"></i>
+                    </div>
+                    <div class="floating-tech tech-git" data-tooltip="Git">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="floating-tech tech-jira" data-tooltip="Jira">
+                        <i class="fa-brands fa-jira"></i>
+                    </div>
+                    <div class="floating-tech tech-compose" data-tooltip="Jetpack Compose">
+                        <svg viewBox="0 0 24 24" class="tech-icon-svg" fill="currentColor">
+                            <path d="M2 3h8v8H2V3zm2 2v4h4V5H4zm10-2h8v8h-8V3zm2 2v4h4V5h-4zM2 13h8v8H2v-8zm2 2v4h4v-4H4zm13.5-1.5L22 18l-4.5 4.5L13 18l4.5-4.5z"/>
+                        </svg>
+                    </div>
+                    <div class="floating-tech tech-flutter" data-tooltip="Flutter">
+                        <svg viewBox="0 0 24 24" class="tech-icon-svg" fill="currentColor">
+                            <path d="M14.314 0L2.3 12l3.6 3.6 12.015-12.015z" fill="#45D1FD"/>
+                            <path d="M20.285 5.97L8.27 17.986l3.6 3.6 12.014-12.015z" fill="#0273D4"/>
+                            <path d="M8.27 17.986L4.67 14.385l3.6-3.6 3.6 3.6z" fill="#02569B"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Showcase Section (App Carousel) -->
+    <section class="showcase-section" id="showcase">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <span class="section-tag">Featured Applications</span>
+                <h2 class="section-title"><i class="fa-solid fa-mobile-screen-button icon-highlight"></i> Google Play Apps Showcase</h2>
+                <p class="section-desc">Explore real-world applications I built and scaled, including download statistics, company contexts, and live UI simulations inside the phone mockup.</p>
+            </div>
+
+            <div class="showcase-carousel-container">
+                
+                <!-- Left: App Details Panel -->
+                <div class="showcase-details-panel glass-panel">
+                    <div id="showcase-app-details" class="app-details-wrapper">
+                        <!-- Populated dynamically via JS -->
+                    </div>
+                    
+                    <!-- Carousel Controls -->
+                    <div class="carousel-nav-controls">
+                        <button class="carousel-nav-btn" id="carousel-prev-btn" aria-label="Previous App">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <div class="carousel-dots" id="carousel-dots">
+                            <!-- Populated dynamically via JS -->
+                        </div>
+                        <button class="carousel-nav-btn" id="carousel-next-btn" aria-label="Next App">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right: Phone Simulator Mockup -->
+                <div class="phone-simulator-wrapper">
+                    <div class="phone-device">
+                        <div class="phone-speaker animate-pulse"></div>
+                        <div class="phone-camera"></div>
+                        <div class="phone-screen-frame">
+                            <div class="phone-status-bar">
+                                <span class="phone-time" id="simulator-time">03:00 PM</span>
+                                <div class="phone-status-icons">
+                                    <i class="fa-solid fa-wifi"></i>
+                                    <i class="fa-solid fa-signal"></i>
+                                    <i class="fa-solid fa-battery-three-quarters"></i>
+                                </div>
+                            </div>
+                            
+                            <!-- Simulator Screen Content -->
+                            <div class="phone-screen-content" id="phone-screen-content">
+                                <!-- Dynamic screen layout depending on active project -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Technical Stack & Specialties Section -->
+    <section class="skills-section theme-android" id="skills">
+        <div class="section-container">
+            
+            <!-- Skills Header Row (Title & Search Bar) -->
+            <div class="skills-header-row">
+                <div class="skills-header-info">
+                    <span class="section-tag">Tech Stack & Tools</span>
+                    <h2 class="section-title"><i class="fa-solid fa-code icon-highlight"></i> Technical Stack & Specialties</h2>
+                    <p class="section-desc-left">Filter by category or search through framework modules, languages, and patterns in real-time.</p>
+                </div>
+                
+                <div class="skills-search-wrapper">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="skills-search-input" placeholder="Search skills (e.g. Compose, Hilt)..." aria-label="Search skills">
+                </div>
+            </div>
+
+            <!-- Tech Platform Switcher Tabs -->
+            <div class="skills-tabs-wrapper">
+                <div class="skills-tabs" data-active="android">
+                    <button class="skills-tab-btn active" data-tab="android">
+                        <i class="fa-brands fa-android"></i> Android Native
+                    </button>
+                    <button class="skills-tab-btn" data-tab="flutter">
+                        <i class="fa-brands fa-flutter"></i> Flutter Cross-Platform
+                    </button>
+                    <span class="tab-slider"></span>
+                </div>
+            </div>
+
+            <!-- Category Filter Pills -->
+            <div class="skills-filter-container">
+                <button class="filter-pill active" data-filter="all">All</button>
+                <button class="filter-pill" data-filter="languages">Languages</button>
+                <button class="filter-pill" data-filter="ui-frameworks">UI Frameworks</button>
+                <button class="filter-pill" data-filter="architecture">Architecture</button>
+                <button class="filter-pill" data-filter="networking">Networking & Real-time</button>
+                <button class="filter-pill" data-filter="di">Dependency Injection</button>
+                <button class="filter-pill" data-filter="database">Database & Storage</button>
+                <button class="filter-pill" data-filter="testing-devops">Testing & DevOps</button>
+                <button class="filter-pill" data-filter="specialized-sdks">Specialized SDKs</button>
+                <button class="filter-pill" data-filter="cs-fundamentals">CS Fundamentals</button>
+            </div>
+
+            <!-- Skills Grid (Android Native) -->
+            <div class="skills-grid active" id="android-grid" data-tab-content="android">
+                
+                <!-- Languages Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="languages">
+                    <div class="card-header">
+                        <span class="category-title">Languages</span>
+                        <span class="category-count-badge">2</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="kotlin">
+                            <i class="fa-solid fa-check skill-check"></i> Kotlin
+                        </span>
+                        <span class="skill-pill" data-name="java">
+                            <i class="fa-solid fa-check skill-check"></i> Java
+                        </span>
+                    </div>
+                </div>
+
+                <!-- UI Frameworks Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="ui-frameworks">
+                    <div class="card-header">
+                        <span class="category-title">UI Frameworks</span>
+                        <span class="category-count-badge">5</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="jetpack compose">
+                            <i class="fa-solid fa-check skill-check"></i> Jetpack Compose
+                        </span>
+                        <span class="skill-pill" data-name="material design 3">
+                            <i class="fa-solid fa-check skill-check"></i> Material Design 3
+                        </span>
+                        <span class="skill-pill" data-name="view binding">
+                            <i class="fa-solid fa-check skill-check"></i> View Binding
+                        </span>
+                        <span class="skill-pill" data-name="data binding">
+                            <i class="fa-solid fa-check skill-check"></i> Data Binding
+                        </span>
+                        <span class="skill-pill" data-name="advanced xml">
+                            <i class="fa-solid fa-check skill-check"></i> Advanced XML
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Architecture Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="architecture">
+                    <div class="card-header">
+                        <span class="category-title">Architecture</span>
+                        <span class="category-count-badge">7</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="clean architecture">
+                            <i class="fa-solid fa-check skill-check"></i> Clean Architecture
+                        </span>
+                        <span class="skill-pill" data-name="mvvm">
+                            <i class="fa-solid fa-check skill-check"></i> MVVM
+                        </span>
+                        <span class="skill-pill" data-name="mvi">
+                            <i class="fa-solid fa-check skill-check"></i> MVI
+                        </span>
+                        <span class="skill-pill" data-name="mvc">
+                            <i class="fa-solid fa-check skill-check"></i> MVC
+                        </span>
+                        <span class="skill-pill" data-name="mvp">
+                            <i class="fa-solid fa-check skill-check"></i> MVP
+                        </span>
+                        <span class="skill-pill" data-name="solid principles">
+                            <i class="fa-solid fa-check skill-check"></i> SOLID Principles
+                        </span>
+                        <span class="skill-pill" data-name="multi-module projects">
+                            <i class="fa-solid fa-check skill-check"></i> Multi-Module Projects
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Dependency Injection Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="di">
+                    <div class="card-header">
+                        <span class="category-title">Dependency Injection</span>
+                        <span class="category-count-badge">4</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="hilt">
+                            <i class="fa-solid fa-check skill-check"></i> Hilt
+                        </span>
+                        <span class="skill-pill" data-name="dagger 2">
+                            <i class="fa-solid fa-check skill-check"></i> Dagger 2
+                        </span>
+                        <span class="skill-pill" data-name="koin">
+                            <i class="fa-solid fa-check skill-check"></i> Koin
+                        </span>
+                        <span class="skill-pill" data-name="kodein">
+                            <i class="fa-solid fa-check skill-check"></i> Kodein
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Networking Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="networking">
+                    <div class="card-header">
+                        <span class="category-title">Networking & Real-time</span>
+                        <span class="category-count-badge">6</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="retrofit">
+                            <i class="fa-solid fa-check skill-check"></i> Retrofit
+                        </span>
+                        <span class="skill-pill" data-name="okhttp">
+                            <i class="fa-solid fa-check skill-check"></i> OkHttp
+                        </span>
+                        <span class="skill-pill" data-name="rxjava">
+                            <i class="fa-solid fa-check skill-check"></i> RxJava
+                        </span>
+                        <span class="skill-pill" data-name="coroutines & flow">
+                            <i class="fa-solid fa-check skill-check"></i> Coroutines & Flow
+                        </span>
+                        <span class="skill-pill" data-name="websockets">
+                            <i class="fa-solid fa-check skill-check"></i> WebSockets
+                        </span>
+                        <span class="skill-pill" data-name="ssl pinning">
+                            <i class="fa-solid fa-check skill-check"></i> SSL Pinning
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Database Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="database">
+                    <div class="card-header">
+                        <span class="category-title">Database & Storage</span>
+                        <span class="category-count-badge">4</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="room (sqlite)">
+                            <i class="fa-solid fa-check skill-check"></i> Room (SQLite)
+                        </span>
+                        <span class="skill-pill" data-name="cloud firestore">
+                            <i class="fa-solid fa-check skill-check"></i> Cloud Firestore
+                        </span>
+                        <span class="skill-pill" data-name="realtime database">
+                            <i class="fa-solid fa-check skill-check"></i> Realtime Database
+                        </span>
+                        <span class="skill-pill" data-name="aes encryption for keys">
+                            <i class="fa-solid fa-check skill-check"></i> AES Encryption for Keys
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Testing & DevOps Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="testing-devops">
+                    <div class="card-header">
+                        <span class="category-title">Testing & DevOps</span>
+                        <span class="category-count-badge">5</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="github actions (ci/cd)">
+                            <i class="fa-solid fa-check skill-check"></i> GitHub Actions (CI/CD)
+                        </span>
+                        <span class="skill-pill" data-name="sentry">
+                            <i class="fa-solid fa-check skill-check"></i> Sentry
+                        </span>
+                        <span class="skill-pill" data-name="firebase crashlytics">
+                            <i class="fa-solid fa-check skill-check"></i> Firebase Crashlytics
+                        </span>
+                        <span class="skill-pill" data-name="junit / mockk">
+                            <i class="fa-solid fa-check skill-check"></i> JUnit / Mockk
+                        </span>
+                        <span class="skill-pill" data-name="git / github">
+                            <i class="fa-solid fa-check skill-check"></i> Git / GitHub
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Specialized SDKs Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="specialized-sdks">
+                    <div class="card-header">
+                        <span class="category-title">Specialized SDKs</span>
+                        <span class="category-count-badge">5</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="shopify sdk">
+                            <i class="fa-solid fa-check skill-check"></i> Shopify SDK
+                        </span>
+                        <span class="skill-pill" data-name="google maps api">
+                            <i class="fa-solid fa-check skill-check"></i> Google Maps API
+                        </span>
+                        <span class="skill-pill" data-name="algolia search">
+                            <i class="fa-solid fa-check skill-check"></i> Algolia Search
+                        </span>
+                        <span class="skill-pill" data-name="sendgrid api">
+                            <i class="fa-solid fa-check skill-check"></i> SendGrid API
+                        </span>
+                        <span class="skill-pill" data-name="nafath sso">
+                            <i class="fa-solid fa-check skill-check"></i> Nafath SSO
+                        </span>
+                    </div>
+                </div>
+
+                <!-- CS Fundamentals Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="cs-fundamentals">
+                    <div class="card-header">
+                        <span class="category-title">CS Fundamentals</span>
+                        <span class="category-count-badge">4</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="gradle">
+                            <i class="fa-solid fa-check skill-check"></i> Gradle
+                        </span>
+                        <span class="skill-pill" data-name="postman">
+                            <i class="fa-solid fa-check skill-check"></i> Postman
+                        </span>
+                        <span class="skill-pill" data-name="android studio">
+                            <i class="fa-solid fa-check skill-check"></i> Android Studio
+                        </span>
+                        <span class="skill-pill" data-name="adb / command line">
+                            <i class="fa-solid fa-check skill-check"></i> ADB / Command Line
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Skills Grid (Flutter Cross-Platform) -->
+            <div class="skills-grid" id="flutter-grid" data-tab-content="flutter" style="display: none;">
+                
+                <!-- Languages Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="languages">
+                    <div class="card-header">
+                        <span class="category-title">Languages</span>
+                        <span class="category-count-badge">3</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="dart">
+                            <i class="fa-solid fa-check skill-check"></i> Dart
+                        </span>
+                        <span class="skill-pill" data-name="kotlin">
+                            <i class="fa-solid fa-check skill-check"></i> Kotlin (Native)
+                        </span>
+                        <span class="skill-pill" data-name="swift">
+                            <i class="fa-solid fa-check skill-check"></i> Swift (Native)
+                        </span>
+                    </div>
+                </div>
+
+                <!-- UI Frameworks Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="ui-frameworks">
+                    <div class="card-header">
+                        <span class="category-title">UI Frameworks</span>
+                        <span class="category-count-badge">5</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="flutter sdk">
+                            <i class="fa-solid fa-check skill-check"></i> Flutter SDK
+                        </span>
+                        <span class="skill-pill" data-name="cupertino widgets">
+                            <i class="fa-solid fa-check skill-check"></i> Cupertino Widgets
+                        </span>
+                        <span class="skill-pill" data-name="custom painters">
+                            <i class="fa-solid fa-check skill-check"></i> Custom Painters
+                        </span>
+                        <span class="skill-pill" data-name="animations">
+                            <i class="fa-solid fa-check skill-check"></i> Animations
+                        </span>
+                        <span class="skill-pill" data-name="responsive UI">
+                            <i class="fa-solid fa-check skill-check"></i> Responsive UI
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Architecture Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="architecture">
+                    <div class="card-header">
+                        <span class="category-title">Architecture</span>
+                        <span class="category-count-badge">6</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="bloc / cubit">
+                            <i class="fa-solid fa-check skill-check"></i> BLoC / Cubit
+                        </span>
+                        <span class="skill-pill" data-name="provider">
+                            <i class="fa-solid fa-check skill-check"></i> Provider
+                        </span>
+                        <span class="skill-pill" data-name="riverpod">
+                            <i class="fa-solid fa-check skill-check"></i> Riverpod
+                        </span>
+                        <span class="skill-pill" data-name="clean architecture">
+                            <i class="fa-solid fa-check skill-check"></i> Clean Architecture
+                        </span>
+                        <span class="skill-pill" data-name="solid principles">
+                            <i class="fa-solid fa-check skill-check"></i> SOLID Principles
+                        </span>
+                        <span class="skill-pill" data-name="multi-package projects">
+                            <i class="fa-solid fa-check skill-check"></i> Multi-Package Projects
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Dependency Injection Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="di">
+                    <div class="card-header">
+                        <span class="category-title">Dependency Injection</span>
+                        <span class="category-count-badge">3</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="getit">
+                            <i class="fa-solid fa-check skill-check"></i> GetIt
+                        </span>
+                        <span class="skill-pill" data-name="provider">
+                            <i class="fa-solid fa-check skill-check"></i> Provider (concept)
+                        </span>
+                        <span class="skill-pill" data-name="kiwi">
+                            <i class="fa-solid fa-check skill-check"></i> Kiwi
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Networking Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="networking">
+                    <div class="card-header">
+                        <span class="category-title">Networking & Real-time</span>
+                        <span class="category-count-badge">5</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="dio client">
+                            <i class="fa-solid fa-check skill-check"></i> Dio Client
+                        </span>
+                        <span class="skill-pill" data-name="http client">
+                            <i class="fa-solid fa-check skill-check"></i> Http Client
+                        </span>
+                        <span class="skill-pill" data-name="websockets">
+                            <i class="fa-solid fa-check skill-check"></i> WebSockets
+                        </span>
+                        <span class="skill-pill" data-name="graphql">
+                            <i class="fa-solid fa-check skill-check"></i> GraphQL
+                        </span>
+                        <span class="skill-pill" data-name="ssl pinning">
+                            <i class="fa-solid fa-check skill-check"></i> SSL Pinning
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Database Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="database">
+                    <div class="card-header">
+                        <span class="category-title">Database & Storage</span>
+                        <span class="category-count-badge">5</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="hive">
+                            <i class="fa-solid fa-check skill-check"></i> Hive (NoSQL)
+                        </span>
+                        <span class="skill-pill" data-name="isar database">
+                            <i class="fa-solid fa-check skill-check"></i> Isar Database
+                        </span>
+                        <span class="skill-pill" data-name="sqflite">
+                            <i class="fa-solid fa-check skill-check"></i> SQFlite (SQLite)
+                        </span>
+                        <span class="skill-pill" data-name="secure storage">
+                            <i class="fa-solid fa-check skill-check"></i> Secure Storage
+                        </span>
+                        <span class="skill-pill" data-name="cloud firestore">
+                            <i class="fa-solid fa-check skill-check"></i> Cloud Firestore
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Testing & DevOps Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="testing-devops">
+                    <div class="card-header">
+                        <span class="category-title">Testing & DevOps</span>
+                        <span class="category-count-badge">6</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="flutter test">
+                            <i class="fa-solid fa-check skill-check"></i> Flutter Test
+                        </span>
+                        <span class="skill-pill" data-name="integration testing">
+                            <i class="fa-solid fa-check skill-check"></i> Integration Testing
+                        </span>
+                        <span class="skill-pill" data-name="golden tests">
+                            <i class="fa-solid fa-check skill-check"></i> Golden Tests
+                        </span>
+                        <span class="skill-pill" data-name="codemagic">
+                            <i class="fa-solid fa-check skill-check"></i> Codemagic (CI/CD)
+                        </span>
+                        <span class="skill-pill" data-name="sentry">
+                            <i class="fa-solid fa-check skill-check"></i> Sentry
+                        </span>
+                        <span class="skill-pill" data-name="firebase crashlytics">
+                            <i class="fa-solid fa-check skill-check"></i> Firebase Crashlytics
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Specialized SDKs Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="specialized-sdks">
+                    <div class="card-header">
+                        <span class="category-title">Specialized SDKs</span>
+                        <span class="category-count-badge">5</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="shopify sdk">
+                            <i class="fa-solid fa-check skill-check"></i> Shopify SDK
+                        </span>
+                        <span class="skill-pill" data-name="google maps flutter">
+                            <i class="fa-solid fa-check skill-check"></i> Google Maps Flutter
+                        </span>
+                        <span class="skill-pill" data-name="algolia search">
+                            <i class="fa-solid fa-check skill-check"></i> Algolia Search
+                        </span>
+                        <span class="skill-pill" data-name="push notifications">
+                            <i class="fa-solid fa-check skill-check"></i> Push Notifications
+                        </span>
+                        <span class="skill-pill" data-name="method channels">
+                            <i class="fa-solid fa-check skill-check"></i> Method Channels
+                        </span>
+                    </div>
+                </div>
+
+                <!-- CS Fundamentals Card -->
+                <div class="skill-category-card reveal-on-scroll" data-category="cs-fundamentals">
+                    <div class="card-header">
+                        <span class="category-title">CS Fundamentals</span>
+                        <span class="category-count-badge">6</span>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-pill" data-name="vs code">
+                            <i class="fa-solid fa-check skill-check"></i> VS Code
+                        </span>
+                        <span class="skill-pill" data-name="android studio">
+                            <i class="fa-solid fa-check skill-check"></i> Android Studio
+                        </span>
+                        <span class="skill-pill" data-name="xcode">
+                            <i class="fa-solid fa-check skill-check"></i> Xcode
+                        </span>
+                        <span class="skill-pill" data-name="flutter cli">
+                            <i class="fa-solid fa-check skill-check"></i> Flutter CLI
+                        </span>
+                        <span class="skill-pill" data-name="postman">
+                            <i class="fa-solid fa-check skill-check"></i> Postman
+                        </span>
+                        <span class="skill-pill" data-name="git / github">
+                            <i class="fa-solid fa-check skill-check"></i> Git / GitHub
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- No Results Message -->
+            <div class="skills-no-results" id="skills-no-results" style="display: none;">
+                <i class="fa-solid fa-folder-open no-results-icon"></i>
+                <p>No matching skills found matching your search.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="credentials-section" id="certificates">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <span class="section-tag">Credentials</span>
+                <h2 class="section-title"><i class="fa-solid fa-award icon-highlight"></i> Professional Certifications</h2>
+                <p class="section-desc">
+                    Commitment to engineering excellence through continuous learning. This is a selected list of credentials; I am constantly refining and expanding my expertise with advanced training.
+                </p>
+            </div>
+            
+            <div class="certificates-grid">
+                <!-- Cert 1 -->
+                <div class="credential-card reveal-on-scroll">
+                    <div class="cred-icon-wrapper">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="card-tag">ITI</div>
+                    <h4 class="cred-title">Developing Mobile Applications using Java</h4>
+                    <span class="cred-institution">Information Technology Institute (ITI)</span>
+                    <div class="cred-meta">
+                        <span class="cred-meta-item"><i class="fa-solid fa-calendar-days"></i> Dec 2019</span>
+                        <span class="cred-meta-item"><i class="fa-solid fa-hashtag"></i> bKF7CuS6SU</span>
+                    </div>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="credential-card reveal-on-scroll">
+                    <div class="cred-icon-wrapper">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+                    <div class="card-tag">Agile</div>
+                    <h4 class="cred-title">Agile Scrum Framework for Project Management</h4>
+                    <span class="cred-institution">Almentor</span>
+                    <div class="cred-meta">
+                        <span class="cred-meta-item"><i class="fa-solid fa-calendar-days"></i> Feb 2020</span>
+                        <span class="cred-meta-item"><i class="fa-solid fa-hashtag"></i> 2gZ91K2D</span>
+                    </div>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="credential-card reveal-on-scroll">
+                    <div class="cred-icon-wrapper">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <div class="card-tag">Soft Skills</div>
+                    <h4 class="cred-title">Effective Communication Techniques</h4>
+                    <span class="cred-institution">Almentor</span>
+                    <div class="cred-meta">
+                        <span class="cred-meta-item"><i class="fa-solid fa-calendar-days"></i> Mar 2020</span>
+                        <span class="cred-meta-item"><i class="fa-solid fa-hashtag"></i> f6702d0D</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="continuous-learning-note reveal-on-scroll">
+                <i class="fa-solid fa-arrows-spin spin-icon"></i>
+                <span>Currently learning and expanding my expertise with advanced system architecture & cloud technologies.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-container">
+            
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <span class="section-tag">Let's Connect</span>
+                <h2 class="contact-header-title" style="justify-content: center; display: flex; align-items: center; gap: 12px; margin-right: 0;">
+                    <i class="fa-solid fa-paper-plane icon-highlight" style="margin-right: 0;"></i> Have a project or opportunity?
+                </h2>
+                <p class="contact-header-desc" style="max-width: 600px; margin: 0 auto 32px auto;">
+                    I'm looking for challenging opportunities that expand my skill set and bring real value to users. Reach out via email, phone, LinkedIn, or GitHub!
+                </p>
+                
+                <div class="contact-methods" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; text-align: left;">
+                    <a href="mailto:Ahmed.a.elfattah.ahmed@gmail.com" class="contact-method-card reveal-on-scroll">
+                        <div class="method-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="method-details">
+                            <span class="method-label">Email Me</span>
+                            <span class="method-val">Ahmed.a.elfattah.ahmed@gmail.com</span>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+201018088360" class="contact-method-card reveal-on-scroll">
+                        <div class="method-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="method-details">
+                            <span class="method-label">Call Me</span>
+                            <span class="method-val">(+2) 010 180 88 360</span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ahmed-a-elfattah-ahmed/" target="_blank" rel="noopener" class="contact-method-card reveal-on-scroll">
+                        <div class="method-icon"><i class="fa-brands fa-linkedin"></i></div>
+                        <div class="method-details">
+                            <span class="method-label">LinkedIn</span>
+                            <span class="method-val">linkedin.com/in/ahmed-a-elfattah-ahmed</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/ahmed-a-elfattah" target="_blank" rel="noopener" class="contact-method-card reveal-on-scroll">
+                        <div class="method-icon"><i class="fa-brands fa-github"></i></div>
+                        <div class="method-details">
+                            <span class="method-label">GitHub</span>
+                            <span class="method-val">github.com/ahmed-a-elfattah</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="section-container footer-content">
+            <p>&copy; 2026 Ahmed Abdelfattah Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <span class="toast-message" id="toast-message">Copied to clipboard!</span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
